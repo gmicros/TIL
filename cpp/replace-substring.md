@@ -1,4 +1,4 @@
-Replacing a substring in a string
+Replace a substring in a string
 
 ```c++
 void replace(std::string& targetString, const std::string& oldString, const std::string& newString)
