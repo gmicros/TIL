@@ -1,6 +1,6 @@
 Replacing a substring in a string
 
-'''cpp
+```cpp
 void replace(std::string& targetString, const std::string& oldString, const std::string& newString)
 	// Unable to process if the target string or the string to replace are empty
 	if (!targetString.empty() && !oldString.empty()) {
@@ -12,4 +12,4 @@ void replace(std::string& targetString, const std::string& oldString, const std:
 		}
 	}
 }
-'''
+```
