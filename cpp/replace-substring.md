@@ -1,6 +1,10 @@
 Replace a substring in a string
 
 ```c++
+#include	<string>
+
+using namespace std;
+
 void replace(std::string& targetString, const std::string& oldString, const std::string& newString)
 	// Unable to process if the target string or the string to replace are empty
 	if (!targetString.empty() && !oldString.empty()) {
